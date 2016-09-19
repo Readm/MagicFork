@@ -29,13 +29,13 @@ def magicfork(terminal='gnome'):
         sys.stdin = tty
 
         def raw_input(prompt):
-            print prompt,
+            sys.stdout.write(prompt)
             return _r_i('')
 
         __builtin__.raw_input = raw_input
 
         def input(prompt):
-            print prompt
+            sys.stdout.write(prompt)
             return _i('')
 
         __builtin__.input = input

@@ -1,5 +1,5 @@
 # MagicFork
-Fork in a new terminal in python.
+Fork in a new terminal to interactive in python.
 
 ## Usage:
 
@@ -27,6 +27,12 @@ else:
     b = raw_input('b?')
     print 'b:', b
 ```
+
+You will get:
+
+![sample](sample.jpg)
+
+---
 
 ### Others
 
