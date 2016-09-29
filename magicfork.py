@@ -1,5 +1,8 @@
 #! /usr/bin/python
 # coding:utf-8
+
+__author__ = 'Readm'
+
 import __builtin__
 import subprocess
 import sys
